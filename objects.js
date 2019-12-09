@@ -1,7 +1,7 @@
 var playlist = {
-  MariahCarey : "All I Want for Christmas Is You",
-  Wham : "Last Christmas",
-  BobbyHelms: "Jingle Bell Rock"
+  'Mariah Carey' : "All I Want for Christmas Is You",
+  'Wham!' : "Last Christmas",
+  'Bobby Helms': "Jingle Bell Rock"
 };
 
 function updatePlaylist(playlist, artistName, songTitle) {
