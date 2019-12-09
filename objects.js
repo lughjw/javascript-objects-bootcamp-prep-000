@@ -3,3 +3,7 @@ var playlist = {
   Wham : "Last Christmas"
   BobbyHelms: "Jingle Bell Rock"
 };
+
+function updatePlaylist(playlist, artistName, songTitle) {
+  Object.assign({}, playlist, {artistName: songTitle})
+}
